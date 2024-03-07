@@ -1,0 +1,9 @@
+<h2 mat-dialog-title>¿Estás seguro que quieres eliminarlo?</h2>
+<mat-dialog-content>
+  <p>Este proceso no es reversible, se eleminirá a: HEROE</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No</button>
+  <span class="spacer"></span>
+  <button mat-button (click)="onConfirm()" cdkFocusInitial>Confirmar</button>
+</mat-dialog-actions>
